@@ -1,9 +1,9 @@
 import my_object
 
-class MyDerivedObject(MyObject):
-    def --init--(slef):
+class MyDerivedObject(my_object.MyObject):
+    def __init__(self):
         super().__init__()
 
-    def --str--(slef):
+    def __str__(self):
         return self.greeting
 
